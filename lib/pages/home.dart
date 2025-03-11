@@ -131,10 +131,11 @@ class _HomeState extends State<Home> {
                 const SizedBox(height: 16),
 
                 // Vertical scrolling events list
+                // The title can be reviewed by the ai and if the info is related then the AI will give a generalized name for the disease
                 Column(
                   children: [
                     EventCard(
-                      title: 'Cramps',
+                      title: 'syphilis',
                       date: '26 Apr',
                       time: '6:30pm',
                       imagePath: 'assets/images/profile.jpg',
